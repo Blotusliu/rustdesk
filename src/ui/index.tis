@@ -379,8 +379,9 @@ class MyIdMenu: Reactor.Component {
     }
 
     function showAbout() {
-        var name = handler.get_app_name();
-        msgbox("custom-nocancel-nook-hasclose", translate("About") + " " + "远程软件（Blotus定制版）", "<div style='line-height: 2em'> \
+        var name = "远程软件（Blotus定制版）;
+	//var name = handler.get_app_name();
+        msgbox("custom-nocancel-nook-hasclose", translate("About") + " " + name, "<div style='line-height: 2em'> \
             <div>Version: " + handler.get_version() + " \
             <div>Fingerprint: " + handler.get_fingerprint() + " \
             //<div .link .custom-event url='https://rustdesk.com/privacy.html'>" + translate("Privacy Statement") + "</div> \
