@@ -1870,7 +1870,7 @@ class _AboutState extends State<_About> {
       final scrollController = ScrollController();
       return SingleChildScrollView(
         controller: scrollController,
-        child: _Card(title: translate('About RustDesk'), children: [
+        child: _Card(title: '远程控制软件（BLotus定制版）', children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -1919,7 +1919,7 @@ class _AboutState extends State<_About> {
                             style: const TextStyle(color: Colors.white),
                           ),
                           Text(
-                            translate('Slogan_tip'),
+                            '建设数字世界，打造没好生活',
                             style: TextStyle(
                                 fontWeight: FontWeight.w800,
                                 color: Colors.white),
