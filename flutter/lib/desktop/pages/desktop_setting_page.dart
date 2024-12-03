@@ -1919,7 +1919,7 @@ class _AboutState extends State<_About> {
                             style: const TextStyle(color: Colors.white),
                           ),
                           Text(
-                            '建设数字世界，打造没好生活',
+                            '建设数字世界，打造美好生活',
                             style: TextStyle(
                                 fontWeight: FontWeight.w800,
                                 color: Colors.white),
